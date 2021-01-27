@@ -25,7 +25,7 @@ Telegram ID: <code>{}</code>
 Plan name: <a href='https://t.me/Mr_Bot_Developer/10'>{}</a>
 Expires on: {}"""
     HELP_USER = """I can do:
-👉 <a href="https://telegram.dog/FileConvertRobot">Convert To Streamable video any telegram file</a>
+👉 <a href="https://telegram.dog/file2video_robot">Convert To Streamable video any telegram file</a>
 --------
 
 🔥 How to deploy : <a href='https://youtu.be/zQamSjXBpJU'>Click here</a>
