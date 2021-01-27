@@ -1,13 +1,13 @@
-## [Anydl Robot](https://telegram.dog/Anydl)
+## [File To Video Bot](https://telegram.dog/)
 ---
 
 An Open Source Telegram RoBot  😍
 
 ### Special thanks
 
-* [@Spechide](https://telegram.dog/spechide)
+* [@Sahadz](https://github.com/sahadz)
 
-### Installation
+## Installation
 
 #### The Easy Way
 
@@ -15,9 +15,9 @@ An Open Source Telegram RoBot  😍
 
 ## Our Telegram Channel and Group
 
-* [Dx Bots Updates](https://telegram.dog/Dx_Botz)
+* [Mr Developer Bots Updates](https://telegram.dog/Mr_Bot_Developer)
 
-* [InFoTel Group](https://telegram.dog/InFoTelGroup)
+* [Support Group](https://telegram.dog/Mr_Developer_Support)
 
 
 ### [@BotFather](https://telegram.dog/BotFather) Commands
