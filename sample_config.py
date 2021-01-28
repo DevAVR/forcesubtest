@@ -15,6 +15,8 @@ class Config(object):
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
+    # Update channel for Force Subscribe
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
     # Telegram maximum file upload size
     MAX_FILE_SIZE = 50000000
     TG_MAX_FILE_SIZE = 2097152000
@@ -34,5 +36,3 @@ class Config(object):
     PROCESS_MAX_TIMEOUT = 3600
     # watermark file
     DEF_WATER_MARK_FILE = ""
-    # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "")
