@@ -8,3 +8,4 @@ https://github.com/prgofficial/pyrogram/archive/asyncio-dev.zip
 requests
 tgcrypto
 youtube-dl
+olefile
