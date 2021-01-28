@@ -28,8 +28,7 @@
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
-      "value": "",
-      "required" : false
+      "value": ""
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -45,8 +44,7 @@
     },
     "UPDATE_CHANNEL": {
       "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
-      "value": "",
-      "required": false
+      "value": ""
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
