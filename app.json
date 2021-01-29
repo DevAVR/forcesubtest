@@ -1,55 +1,42 @@
 {
-  "name": "File To Video Converter",
-  "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
-  "logo": "https://telegra.ph/file/a33a87bdb406d970edb87.jpg",
+  "name": "Remove Background Bot",
+  "description": "A Telegram Bot 🤖 for removing Background of an Image",
+  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
   "keywords": [
     "telegram",
-    "best",
-    "youtube",
-    "downloader",
-    "open",
-    "source",
-    "multi",
-    "purpose",
-    "ffmpeg",
-    "remote",
-    "uploader"
+    "bot",
+    "Remove Bg",
   ],
-  "success_url": "https://telegram.dog/URL_Upload_Robot",
-  "website": "https://mrbotdeveloper.github.io/File-To-Video-Bot/",
-  "repository": "https://github.com/MrBotDeveloper/forcesubtest",
+  "repository": "https://github.com/MrBotDeveloper/RemoveBg-Bot",
+  "website": "https://mrbotdeveloper.github.io/RemoveBg-Bot/",
+  "success_url": "#TODO",
   "env": {
-    "WEBHOOK": {
-      "description": "Setting this to ANYTHING will enable webhooks when in env mode",
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable heroku.",
       "value": "ANYTHING"
     },
-    "TG_BOT_TOKEN": {
-      "description": "Your bot token, as a string.",
+    "APP_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
       "value": ""
     },
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
       "value": ""
     },
-    "APP_ID": {
-      "description": "Get this value from https://my.telegram.org",
+    "TG_BOT_USER_NAME_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the username of your bot",
       "value": ""
     },
-    "API_HASH": {
-      "description": "Get this value from https://my.telegram.org",
+    "TG_BOT_TOKEN_BF_HER": {
+      "description": "Needed for inline buttons maker. Make a bot at http://telegram.dog/BotFather and get the token of your bot.Worth it. Get it.",
       "value": ""
     },
-    "AUTH_USERS": {
-      "description": "allow only pre-defined users to use this bot",
-      "value": "7351948 20516707 23122162 500346573"
-    },
-    "UPDATE_CHANNEL": {
-      "description": "For Force Subscribe. Paste your Update channel USERNAME (without @)..",
-      "value": "",
-      "required": false
-    },
-    "BANNED_USERS": {
-      "description": "Banned Unwanted members..",
+    "REM_BG_API_KEY": {
+      "description": "Required for Removing image background functionality. Get from https://www.remove.bg/",
       "value": "",
       "required": false
     }
@@ -58,13 +45,5 @@
   ],
   "buildpacks": [{
     "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-  }, {
-    "url": "heroku/python"
-  }],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "free"
-    }
-  }
+  }]
 }
